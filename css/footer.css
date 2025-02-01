@@ -1,0 +1,35 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;  /* vw = view-width */
+    padding-bottom: 30px;
+    padding-top: 20px;
+    border-top : 1px solid #eaeaea;
+    background-color: white;
+}
+
+.footer-block {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-icons {
+    font-size: 6px;
+    display: flex;
+    flex-direction: column;   /* 양 옆으로 배치된걸 위아래 배치로 바꿈 */
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px 0 10px;   /* 각각 사이의 공간 만들기 */
+    cursor: pointer;
+}
+
+.footer-icons__desc {
+    margin-top: 5px;
+    font-weight: bold;
+    transform: scale(0.8);
+}
+
+.footer-icons__img {
+    width: 30px;
+}
